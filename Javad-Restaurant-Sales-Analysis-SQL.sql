@@ -49,7 +49,7 @@ ORDER BY (SELECT NULL)
 
  /********************************************************************
 -- Project: Javad Restaurant Sales Analysis (SQL)
--- Section 1: 02_dimensions
+-- Section 2: 02_dimensions
 -- Author: Javad Lotfi
 -- Purpose: Create dimension tables for Star Schema
 -- Description: 
@@ -449,4 +449,5 @@ SELECT
 	COUNT(*) AS rating_count
 FROM fact_javad_orders
 GROUP BY Rating
+
 ORDER BY COUNT(*) DESC;
