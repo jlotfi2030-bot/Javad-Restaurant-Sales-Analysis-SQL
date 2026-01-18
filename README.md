@@ -12,7 +12,9 @@ The project begins with data cleaning and validation, ensuring data accuracy and
 Once the data is cleansed, the project applies dimensional modeling using a Star Schema, a widely adopted approach in analytics and business intelligence. This design separates descriptive attributes into dimension tables and stores measurable metrics in a central fact table, improving query performance, scalability, and reporting clarity.
 
 On top of this analytical foundation, the project delivers business KPIs and deep-dive insights across time, location, restaurants, food categories, pricing, and customer behavior. The final result is an analytics-ready dataset that can be easily consumed by BI tools such as Power BI or Tableau.
+
 File : https://raw.githubusercontent.com/jlotfi2030-bot/Javad-Restaurant-Sales-Analysis-SQL/refs/heads/main/Javad-Restaurant-Sales-Analysis-SQL.sql
+
 ⸻
 
 🎯 Business Objectives
